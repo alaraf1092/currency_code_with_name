@@ -160,4 +160,13 @@ const country_code={
 "ZMW":	"Zambian Kwacha",
 "ZWL":	"Zimbabwean",
 }
-//currency code with currency name
+const vals = Object.values(country_code);
+const kys = Object.keys(country_code);
+console.log(kys)
+console.log(vals);
+
+let keys='';
+for(let keys of kys){
+    keys =+ keys;
+}
+console.log(keys)

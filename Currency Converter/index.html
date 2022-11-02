@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,27 +14,27 @@
             <h2>CURRENCY CONVERTER</h2>
         </div>
         <form action="">
-            <div class="input"><label for="text">Enter Amount</label> <br>
-            <input type="text" name="text" id="amount">
+            <div class="input"><label for="text">Enter Amount : </label> <br>
+            <input type="text" name="text" id="amount" value="1">
         </div>
             
             <div class="drop-down-list">
                 <div class="from">
-                    <p>From</p>
-                    <select name="" id="From">
-                        <option value="BDT">Bangladesh</option>
-                        <option value="INR">India</option>
-                        <option value="USD">United States</option>
-                        <option value="EUR">Europe</option>
+                    <p>From:</p>
+                    <select name="" id="From"> 
+                        <option value="USD">US Dollar</option>
+                        <option value="BDT">Bangladeshi Taka</option>
+                        <option value="INR">Indian Rupee</option>
+                        <option value="EUR">Euro</option>
                     </select>
-                </div> <span>  </span>
+                </div>
                 <div class="to">
-                    <p>To</p>
+                    <p>To:</p>
                     <select name="" id="To">
-                        <option value="BDT">Bangladesh</option>
-                        <option value="INR">India</option>
-                        <option value="USD">United States</option>
-                        <option value="EUR">Europe</option>
+                        <option value="BDT">Bangladeshi Taka</option>
+                        <option value="INR">Indian Rupee</option>
+                        <option value="USD">US Dollar</option>
+                        <option value="EUR">Euro</option>
                     </select>
                 </div>
             </div>
@@ -41,7 +42,7 @@
             <div class="rate-button">
                 <button>Get Exchange Rate</button>
             </div> <br>
-            <div class="rate">1 USD = 101 BDT</div>
+            <div class="rate">Exchange Rate</div>
             
         </form>
     </div>
