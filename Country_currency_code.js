@@ -158,5 +158,5 @@ const country_code = {
     "YER":	"Yemeni Rial",
     "ZAR":	"South African Rand",
     "ZMW":	"Zambian Kwacha",
-    "ZWL":	"Zimbabwean",
+    "ZWL":	"Zimbabwean Dollar",
     }
