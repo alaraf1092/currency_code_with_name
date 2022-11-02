@@ -160,3 +160,4 @@ const country_code={
 "ZMW":	"Zambian Kwacha",
 "ZWL":	"Zimbabwean",
 }
+//currency code with currency name
