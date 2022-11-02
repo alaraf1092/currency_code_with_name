@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="box">
+        <div class="header">
+            <h2>CURRENCY CONVERTER</h2>
+        </div>
+        <form action="">
+            <div class="input"><label for="text">Enter Amount</label> <br>
+            <input type="text" name="text" id="amount">
+        </div>
+            
+            <div class="drop-down-list">
+                <div class="from">
+                    <p>From</p>
+                    <select name="" id="From">
+                        <option value="BDT">Bangladesh</option>
+                        <option value="INR">India</option>
+                        <option value="USD">United States</option>
+                        <option value="EUR">Europe</option>
+                    </select>
+                </div> <span>  </span>
+                <div class="to">
+                    <p>To</p>
+                    <select name="" id="To">
+                        <option value="BDT">Bangladesh</option>
+                        <option value="INR">India</option>
+                        <option value="USD">United States</option>
+                        <option value="EUR">Europe</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="rate-button">
+                <button>Get Exchange Rate</button>
+            </div> <br>
+            <div class="rate">1 USD = 101 BDT</div>
+            
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
